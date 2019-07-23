@@ -1,0 +1,11 @@
+import turtle as t
+
+t.penup()
+t.pensize(10)
+t.pencolor("black")
+t.pendown()
+t.fd(100)
+for i in range(3):
+    t.left(90)
+    t.fd(100)
+t.done()
